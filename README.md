@@ -44,3 +44,7 @@ Content-Type: application/json
 ### Alkalmazás indítása
 
 npm run dev
+
+
+#### Eszrevetelek:
+- json server nem UUID-t hasznal, az miatt inkonzisztencia alakulhat ki, hiszen a mar megkapott ket felhasznalonak UUID-ja, a generaltnak pedig short stringet general.
